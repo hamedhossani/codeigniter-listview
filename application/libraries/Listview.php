@@ -422,7 +422,7 @@ class Listview {
         if ($numbering['active'] == true) {
         	$th_attr 	= $numbering['attr'];
             $label 		= $numbering['label'];
-            $th 		.= "<th style='{$th_attr}'>{$label}</th>";
+            $th 		.= "<th style='{$th_attr['style']}'>{$label}</th>";
         } 
 
 		// if action in first position
